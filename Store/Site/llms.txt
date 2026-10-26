@@ -1,0 +1,28 @@
+# Paste Shifter
+
+> Aplicación de productividad para macOS: historial local de texto, imágenes y enlaces. Orbital permite compartir texto entre Mac y la app complementaria para Android mediante una conexión local cifrada por Wi-Fi.
+
+## Documentación oficial
+
+- [Inicio](https://pasteshifter.bastianhidalgo.cl/): presentación del producto y demostraciones visuales.
+- [Funciones y requisitos](https://pasteshifter.bastianhidalgo.cl/product.html): capacidades, requisitos, límites de Orbital y retención de datos.
+- [Soporte](https://pasteshifter.bastianhidalgo.cl/support.html): ayuda de conexión y contacto.
+- [Privacidad](https://pasteshifter.bastianhidalgo.cl/privacy.html): tratamiento local, cifrado y eliminación de datos.
+
+## Datos esenciales
+
+- Producto: Paste Shifter. Editor: Visitme SpA.
+- La app de Mac requiere macOS 13 o posterior. Android es opcional.
+- El historial visual y el arrastre de imágenes funcionan en el Mac.
+- Orbital comparte texto, no imágenes ni archivos. Requiere la app Android y la misma red Wi-Fi; no es sincronización en la nube.
+- Los espacios Fantasma, Flash y Privado no se comparten mediante Orbital.
+- Normal, Fantasma y las imágenes son temporales y desaparecen al cerrar la app. Los textos guardados en Privado permanecen cifrados localmente hasta que se borran.
+- El pegado directo en otras apps requiere el permiso de Accesibilidad.
+- Las demostraciones de la web son ejemplos; no conectan dispositivos ni acceden al portapapeles.
+
+## Disponibilidad y contacto
+
+- [Mac App Store](https://apps.apple.com/cl/app/paste-shifter/id6821711381?mt=12): consultar precio y disponibilidad vigentes por región. No asumir un precio fijo, valoraciones ni versiones no publicadas.
+- Soporte: comunicaciones@visitme.cl.
+
+Este índice facilita la consulta a sistemas que lo utilicen. No concede permisos de uso del contenido ni garantiza indexación o presencia en respuestas generadas por IA.
