@@ -3,26 +3,39 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Política de privacidad de Paste Shifter para macOS.">
+  <meta name="description" content="Política de privacidad de Paste Shifter para macOS y Android.">
   <title>Privacidad — Paste Shifter</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="legacy.css">
 </head>
 <body>
   <header class="shell nav"><a class="brand" href="./"><img src="assets/paste-shifter-icon.png" alt="" width="38" height="38"><span>Paste Shifter</span></a><nav aria-label="Navegación principal"><a href="privacy.html" aria-current="page">Privacidad</a><a href="support.html">Soporte</a></nav></header>
   <main class="shell document">
     <p class="eyebrow">Transparencia</p>
     <h1>Política de privacidad</h1>
-    <p class="updated">Última actualización: 11 de octubre de 2026</p>
-    <p>Paste Shifter mantiene el historial de textos copiados dentro del Mac. La app no envía el contenido del portapapeles ni el historial a Visitme SpA ni a otros servidores. No incluye publicidad, analítica ni cuentas de usuario.</p>
+    <p class="updated">Última actualización: 26 de octubre de 2026</p>
+    <p>Esta política describe Paste Shifter para macOS y su app complementaria para Android.</p>
+    <h2>Paste Shifter para Android</h2>
+    <p>Paste Shifter para Android conecta el teléfono con un Mac que la persona emparejó. El emparejamiento se inicia escaneando el código QR que muestra la app para Mac y confirmando el código de identidad.</p>
+    <ul>
+      <li>El texto se transmite directamente entre los dispositivos emparejados por la red local, usando TLS 1.3 y validación del certificado del Mac. No pasa por un servidor de Paste Shifter.</li>
+      <li>La app transmite texto cuando la persona lo comparte desde otra app o lo escribe en Paste Shifter. Con Orbital activo, también puede recibir texto del Mac y copiarlo al portapapeles del teléfono.</li>
+      <li>El historial de texto recibido se mantiene temporalmente en la memoria de la app y no se guarda en su almacenamiento persistente. Android administra el portapapeles del sistema y puede mostrar una vista previa del texto recibido.</li>
+      <li>La app guarda localmente los datos necesarios para recordar el emparejamiento. La clave privada del teléfono se conserva en Android Keystore.</li>
+      <li>La cámara se usa para leer el código QR de emparejamiento en el teléfono. La imagen se procesa localmente y no se guarda ni se envía.</li>
+      <li>La app no incluye publicidad, analítica ni cuentas de usuario.</li>
+    </ul>
+    <p>El texto se envía al dispositivo Mac que la persona emparejó; evita compartir contenido que no quieras transferir a ese Mac. La conexión se limita a texto y no transmite los espacios Fantasma, Flash o Privado del Mac.</p>
+    <h2>Paste Shifter para macOS</h2>
+    <p>Paste Shifter mantiene un historial local de texto e imágenes copiadas en el Mac. Orbital permite compartir texto directamente con los dispositivos Android emparejados. La app no envía el contenido del portapapeles ni el historial a Visitme SpA ni a otros servidores. No incluye publicidad, analítica ni cuentas de usuario.</p>
     <h2>Datos y almacenamiento</h2>
     <ul>
-      <li>Normal y Fantasma conservan temporalmente textos en la memoria de la app. Sus listas desaparecen al salir de Paste Shifter.</li>
+      <li>Normal y Fantasma conservan temporalmente texto e imágenes en la memoria de la app. Sus listas desaparecen al salir de Paste Shifter.</li>
       <li>Flash conserva temporalmente el texto actual del portapapeles y elimina su copia al terminar el plazo de 60 segundos.</li>
       <li>Privado guarda únicamente los textos que eliges. El historial se cifra con AES-GCM y su clave se protege en el llavero de macOS. Para desbloquearlo se usa Touch ID o la contraseña de la cuenta de macOS.</li>
       <li>Las preferencias de la app se guardan localmente en macOS.</li>
-      <li>Paste Shifter consulta el portapapeles para detectar copias de texto. macOS puede pedir permiso para acceder al portapapeles. Puedes pausar la captura y borrar los historiales desde los ajustes.</li>
+      <li>Paste Shifter consulta el portapapeles para detectar texto, imágenes y referencias a archivos copiados. macOS puede pedir permiso para acceder al portapapeles. Puedes pausar la captura y borrar los historiales desde los ajustes.</li>
     </ul>
-    <h2>Retención y eliminación</h2>
+    <h2>Imágenes y capturas</h2><p>Las imágenes del historial visual se procesan localmente y se mantienen temporalmente en memoria. Puedes detener su captura, ocultar sus tarjetas o borrarlas desde la app. Al cerrar Paste Shifter, estas copias temporales se eliminan. Orbital comparte texto; las imágenes no se envían automáticamente a otros dispositivos.</p><h2>Retención y eliminación</h2>
     <p>Puedes borrar cada historial desde los ajustes. El historial Privado permanece cifrado en el almacenamiento local hasta que se borra desde la app. Al arrastrar Paste Shifter a la Papelera, macOS puede conservar los archivos de Application Support y del llavero; borra el historial Privado desde la app antes de desinstalarla si quieres eliminar también esos datos.</p>
     <h2>Cambios y contacto</h2>
     <p>Esta política se actualizará si cambian las prácticas de privacidad de Paste Shifter.</p>
